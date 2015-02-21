@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         Locale loc = new Locale ("spa", "ESP");
         myTTS.setLanguage(loc);
 
-        
+
 
         /*if (status==TextToSpeech.SUCCESS){
             if(myTTS.isLanguageAvailable(Locale.US)==TextToSpeech.LANG_AVAILABLE) myTTS.setLanguage(Locale.US);
@@ -75,5 +75,5 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         }
     }
 
-
+    // probar que pasa despues de que se aplica otro repositorio remoto. ¿ Se quedan todos guardados?
 }
